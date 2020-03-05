@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SobreActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="130sp"
+            android:textSize="20sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="100sp"
+            android:textSize="20sp"
+            android:text="Pedro Lucas - RM83606"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mercado Livre: "
+            android:layout_marginTop="150sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:id="@+id/idTxtMercado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:layout_marginLeft="260sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Netshoes: "
+            android:layout_marginTop="100sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="230sp"
+            android:id="@+id/idTxtNetshoes"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submarino: "
+            android:layout_marginTop="200sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200sp"
+            android:layout_marginLeft="240sp"
+            android:id="@+id/idTxtSubmarino"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscape: "
+            android:layout_marginTop="250sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:layout_marginLeft="220sp"
+            android:id="@+id/idTxtBuscape"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ebay: "
+            android:layout_marginTop="300sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="200sp"
+            android:id="@+id/idTxtEbay"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Motors: "
+            android:layout_marginTop="350sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350sp"
+            android:layout_marginLeft="250sp"
+            android:id="@+id/idTxtWebMotors"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magalu: "
+            android:layout_marginTop="400sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400sp"
+            android:layout_marginLeft="210sp"
+            android:id="@+id/idTxtMagalu"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Americanas: "
+            android:layout_marginTop="450sp"
+            android:textSize="15sp"
+            android:layout_marginLeft="150sp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450sp"
+            android:layout_marginLeft="240sp"
+            android:id="@+id/idTxtAmericanas"
+    />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500sp"
+            android:layout_marginLeft="170sp"
+            android:text="LIMPAR"
+            android:id="@+id/idLimpa"
+    />
+
+</FrameLayout>
